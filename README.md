@@ -1,5 +1,11 @@
-# arbitration-transparency
+# Arbitration Transparency
 
-## Laws and Regulations for each state and the federal goverement
+Arbitration Transparency is a project of MSIH LLC
 
-## Court Case for each state and the federal goverement
+## the Web site will provide the following information
+
+### Laws and Regulations for each state and the federal goverement
+
+### Court Case for each state and the federal goverement
+
+### Arbitration Process and Procedures
