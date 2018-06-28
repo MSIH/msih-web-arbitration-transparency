@@ -1,10 +1,10 @@
 # Object/Database Model
 
-# Juristiction
+# Jurisdiction
 
 - ID
 - Name
-- Juristiction
+- Jurisdiction
 
 # Law
 
@@ -13,4 +13,32 @@
 - URL
 - Content
 - Date
-- Juristiction
+- Jurisdiction
+- Analysis
+
+# Court
+
+- ID
+- Title
+- URL
+- Content
+- Date
+- Jurisdiction
+- Analysis
+
+# Analysis
+
+- ID
+- Title
+- Content
+- URL
+- Date
+
+# Articles
+
+- ID
+- Title
+- Content
+- URL
+- Date
+
