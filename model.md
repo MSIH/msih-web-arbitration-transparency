@@ -34,7 +34,7 @@
 - URL
 - Date
 
-# Articles
+# Article
 
 - ID
 - Title
@@ -42,3 +42,14 @@
 - URL
 - Date
 
+# Case
+
+- ID
+- Date of Event
+- Date of processing
+- Dependant
+- Charge
+- Opinion of Process
+- Opinion of Decision
+- Opinion of Award
+- 
