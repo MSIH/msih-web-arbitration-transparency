@@ -4,13 +4,13 @@ Arbitration Transparency is a project of MSIH LLC
 
 ## The Web site will provide the following information
 
-### Laws and Regulations for each state and the federal goverement
+### Laws and Regulations for each state and the federal government
 
-### Court Case for each state and the federal goverement
+### Court Case for each state and the federal government
 
 ### Arbitration Process and Procedures
 
-## Content Artictecture
+## Content Architecture
 
 ### History
 
@@ -21,7 +21,7 @@ Arbitration Transparency is a project of MSIH LLC
 
 ### Court Cases
 
-- United Superm Court
+- United Supreme Court
 - Federal Court
 - State Court
 
@@ -41,12 +41,12 @@ Arbitration Transparency is a project of MSIH LLC
 
 ### FAQ
 
-### Prvicay
+### Privacy
 
-### Confentaility
+### Confidentiality
 
 ### Associations
 
-### Lobbiest
+### Lobbyist
 
 ### News
