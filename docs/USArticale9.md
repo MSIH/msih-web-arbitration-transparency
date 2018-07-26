@@ -1,3 +1,67 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Arbitration Transparency</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!-- Custom styles for this template 
+    <link href="pricing.css" rel="stylesheet"> -->
+    <style>
+        html {
+            font-size: 14px;
+        }
+
+        @media (min-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+        }
+
+        .container {
+            max-width: 960px;
+        }
+
+        .pricing-header {
+            max-width: 700px;
+        }
+
+        .card-deck .card {
+            min-width: 220px;
+        }
+
+        .border-top {
+            border-top: 1px solid #e5e5e5;
+        }
+
+        .border-bottom {
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .box-shadow {
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+        <h5 class="my-0 mr-md-auto font-weight-normal">Arbitration Transparency</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="#">Laws and Regulations</a>
+            <a class="p-2 text-dark" href="#">Court Cases</a>
+            <a class="p-2 text-dark" href="#">Process and Procedures</a>
+            <!-- <a class="p-2 text-dark" href="#">Pricing</a> -->
+        </nav>
+        <!-- <a class="btn btn-outline-primary" href="#">Sign up</a> -->
+    </div>
 **9 U.S.C. **
 
 United States Code, 2011 Edition
@@ -793,3 +857,4 @@ Convention as ratified by the United States.
 \<*<https://www.gpo.gov/fdsys/pkg/USCODE-2011-title9/html/USCODE-2011-title9.htm>*\>*
 
  
+</body>
