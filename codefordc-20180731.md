@@ -23,8 +23,8 @@ Provide information and anaylsis to the public about Arbitration
 
 - Estiablish File naming standard
 - Understand Jekyll layout and include functionality
-- Create Jekyll _layout file
-- Create Jekyll Header _include file
-- Create Jekyll Footer _include file
+- Create Jekyll _layouts file
+- Create Jekyll Header _includes file
+- Create Jekyll Footer _includes file
 - Download PDF files
 - Convert PDF into Markdown files
