@@ -28,3 +28,22 @@ Provide information and anaylsis to the public about Arbitration
 - Create Jekyll Footer _includes file
 - Download PDF files
 - Convert PDF into Markdown files
+
+## 3. File naming standard
+
+## 4. Understand Jekyll layout and include functionality
+
+- index.html (https://github.com/jekyll/jekyll/blob/master/docs/index.html)
+
+### Include
+
+- documentation (https://jekyllrb.com/docs/includes/)
+- header example (https://github.com/jekyll/jekyll/blob/master/docs/_includes/header.html)
+- footer example (https://github.com/jekyll/jekyll/blob/master/docs/_includes/footer.html)
+
+### Layout
+
+- documentation (https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
+- default example (https://github.com/jekyll/jekyll/blob/master/docs/_layouts/default.htmll)
+- docs example (https://github.com/jekyll/jekyll/blob/master/docs/_layouts/docs.html)
+
