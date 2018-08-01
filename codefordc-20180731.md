@@ -37,6 +37,29 @@ Provide information and anaylsis to the public about Arbitration
 
 ### Include
 
+
+Organize by topic
+
+Navigation
+- bread crumbs
+- side bars
+- menu
+
+## Propsed Menu
+
+- Topics
+- Court Case
+- Laws
+- Rules
+
+minnesota arbitration cases google search
+
+american association for justice good content
+
+
+
+
+
 - documentation (https://jekyllrb.com/docs/includes/)
 - header example (https://github.com/jekyll/jekyll/blob/master/docs/_includes/header.html)
 - footer example (https://github.com/jekyll/jekyll/blob/master/docs/_includes/footer.html)
