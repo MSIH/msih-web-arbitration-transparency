@@ -1,32 +1,12 @@
-
-header>
-  <div class="flexbox">
-    <div class="center-on-mobiles">
-      <h1>
-        <a href="/" class="logo">
-          <span class="sr-only">Jekyll</span>
-          <img src="/img/logo-2x.png" width="140" height="65" alt="Jekyll Logo">
-        </a>
-      </h1>
-    </div>
-    <nav class="main-nav hide-on-mobiles">
-      {% include primary-nav-items.html %}
+<header>
+  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal">Arbitration Transparency</h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+      <a class="p-2 text-dark" href="#">Laws and Regulations</a>
+      <a class="p-2 text-dark" href="#">Court Cases</a>
+      <a class="p-2 text-dark" href="#">Process and Procedures</a>
+      <!-- <a class="p-2 text-dark" href="#">Pricing</a> -->
     </nav>
-    <div class="search hide-on-mobiles">
-      {% include search/input.html %}
-    </div>
-    <div class="meta hide-on-mobiles">
-      <ul>
-        <li>
-          <a href="{{ site.repository }}/releases/tag/v{{ site.version }}">v{{ site.version }}</a>
-        </li>
-        <li>
-          <a href="{{ site.repository }}">GitHub</a>
-        </li>
-      </ul>
-    </div>
+    <!-- <a class="btn btn-outline-primary" href="#">Sign up</a> -->
   </div>
-  <nav class="mobile-nav show-on-mobiles">
-    {% include mobile-nav-items.html %}
-  </nav>
 </header>
