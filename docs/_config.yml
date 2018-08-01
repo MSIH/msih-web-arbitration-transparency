@@ -1,8 +1,8 @@
 ---
 version: 3.8.3
-name: Jekyll • Simple, blog-aware, static sites
-description: Transform your plain text into static websites and blogs
-url: https://jekyllrb.com
+name: Arbitration Transparency
+description: One stop source for information about Arbitration in America
+url: https://arbitrationtransparency.org
 repository: https://github.com/jekyll/jekyll
 timezone: America/Los_Angeles
 twitter:
