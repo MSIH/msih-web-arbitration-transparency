@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Laws - United States
+title: Laws - State
 ---
 {% include subnav.html %}

@@ -1,5 +1,4 @@
 ---
 layout: page
-title: Laws - United States
+title: Laws - Federal
 ---
-{% include subnav.html %}
