@@ -26,6 +26,8 @@ Arbitration Transparency is a project of MSIH LLC
 - State Court
 
 ## Arbitrators
+- AAA
+- AMG
 
 ## Rules
 
@@ -53,5 +55,5 @@ Arbitration Transparency is a project of MSIH LLC
 
 ## News
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI2NTA3NDRdfQ==
+eyJoaXN0b3J5IjpbLTUzNTU2NDI4Nl19
 -->
