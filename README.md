@@ -47,11 +47,11 @@ Arbitration Transparency is a project of MSIH LLC
 
 ## Search
 
-### Associations
+## Associations
 
-### Lobbyist
+## Lobbyist
 
-### News
+## News
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5MDIzMTcxXX0=
+eyJoaXN0b3J5IjpbLTE3MTI2NTA3NDRdfQ==
 -->
