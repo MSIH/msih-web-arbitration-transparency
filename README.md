@@ -27,17 +27,13 @@ Arbitration Transparency is a project of MSIH LLC
 
 ## Arbitrators
 
- - Rules
- - Fees
-
 ### AAA
 
 ### JAMS
 
 ## Rules
 
-### AAA
-###  JAMS
+## Fees
 
 ## Process
 
@@ -61,5 +57,5 @@ Arbitration Transparency is a project of MSIH LLC
 
 ## News
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ3MTg3MzVdfQ==
+eyJoaXN0b3J5IjpbNTA0NTcxMjJdfQ==
 -->
