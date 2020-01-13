@@ -10,40 +10,42 @@ Arbitration Transparency is a project of MSIH LLC
 
 ### Arbitration Process and Procedures
 
-## Content Architecture
+# Content Architecture
 
-### History
+## History
 
-### Laws
+## Laws
 
 - Federal
 - State
 
-### Courts
+## Courts
 
 - United Supreme Court
 - Federal Court
 - State Court
 
-### Arbitrators
+## Arbitrators
 
-### Rules
+## Rules
 
-### Fees
+## Fees
 
-### Process
+## Process
 
-### Examples
+## Examples
 
-### Analysis/Opinion
+## Analysis/Opinion
 
-### Definitions
+## Definitions
 
-### FAQ
+## FAQ
 
-### Privacy
+## Privacy
 
-### Confidentiality
+## Confidentiality
+
+## Search
 
 ### Associations
 
@@ -51,5 +53,5 @@ Arbitration Transparency is a project of MSIH LLC
 
 ### News
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTQwMTYwMV19
+eyJoaXN0b3J5IjpbODQ5MDIzMTcxXX0=
 -->
