@@ -19,7 +19,7 @@ Arbitration Transparency is a project of MSIH LLC
 - Federal
 - State
 
-### Court Cases
+### Courts
 
 - United Supreme Court
 - Federal Court
@@ -50,3 +50,6 @@ Arbitration Transparency is a project of MSIH LLC
 ### Lobbyist
 
 ### News
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTM0MTQwMTYwMV19
+-->
