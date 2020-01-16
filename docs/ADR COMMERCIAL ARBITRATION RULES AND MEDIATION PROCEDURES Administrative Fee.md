@@ -1,3 +1,8 @@
+---
+layout: page
+title: ADR COMMERCIAL ARBITRATION RULES AND MEDIATION PROCEDURES Administrative Fee
+tags: [process, fees]
+---
 ADR COMMERCIAL ARBITRATION RULES AND MEDIATION PROCEDURES Administrative Fee
 
 <https://www.adr.org/sites/default/files/Commercial_Arbitration_Fee_Schedule_0.pdf>
