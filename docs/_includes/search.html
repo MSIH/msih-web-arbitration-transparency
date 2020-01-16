@@ -5,6 +5,7 @@
 
   <script>
   $( function() {
+    var cache = {};
     
     function split( val ) {
       return val.split( /,\s*/ );
@@ -24,9 +25,13 @@
       .autocomplete({
         minLength: 0,
         source: function( request, response ) {
-         $.getJSON( "tags.json", {
-            term: extractLast( request.term )
-          }, response );
+          if ( cache.length ) {
+          response( cache );
+          return;
+        }
+         $.getJSON( "tags.json", response, function( data ) {
+          cache = data;
+          response( data );
         },
         search: function() {
           // custom minLength
