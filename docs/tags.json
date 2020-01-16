@@ -1,0 +1,13 @@
+<!-- Gather unique tags from articles --> 
+{% assign tags_articles = site.articles | map: 'tags' | join: ',' | join: ',' | split: ',' | uniq | sort %} 
+<h2>Article tags: {{ recipes_cats | join: "," | prepend: "[" | append: "]" }}</h2> 
+
+<!-- Gather unique tags from tutorials --> 
+{% assign tags_tutorials = site.tutorials | map: 'tags' | join: ',' | join: ',' | split: ',' | uniq | sort %} 
+<h2>Tutorial tags: {{ recipes_tags | join: "," | prepend: "[" | append: "]" }}</h2> 
+<!-- Combine and leave unique only --> 
+{% assign combo = tags_articles | concat: tags_tutorials | uniq | sort %} 
+<h2>Combo: {{ combo | join: "," | prepend: "[" | append: "]" }}</h2>
+{% for tag in tags %}
+    {{ tag }}
+{% endfor %}
