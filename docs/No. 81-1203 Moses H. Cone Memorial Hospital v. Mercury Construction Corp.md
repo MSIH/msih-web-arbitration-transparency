@@ -1,3 +1,8 @@
+---
+layout: page
+title: Moses H. Cone Memorial Hospital v. Mercury Construction Corp
+tags: [court, federal]
+---
 **Case-Moses H. Cone Memorial Hospital v. Mercury Construction Corp., **
 
 **460 U.S. 1 (1983)**
