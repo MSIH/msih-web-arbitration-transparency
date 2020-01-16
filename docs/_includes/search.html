@@ -25,6 +25,7 @@
       .autocomplete({
         minLength: 0,
         source: function( request, response ) {
+          alert("cache.length: "+ cache.length);
           if ( cache.length ) {
           response( cache );
           return;
