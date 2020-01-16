@@ -14,7 +14,7 @@ layout: null
 
 [
     {% for tag in combo %}
-    {"label": "{{tag}}",
+    {"label": "[{{tag}}]",
     "value": "[{{tag}}]"}
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
