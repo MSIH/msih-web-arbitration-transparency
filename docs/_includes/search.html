@@ -25,7 +25,7 @@
       .autocomplete({
         minLength: 0,
         source: function( request, response ) {
-          //alert("cache.length: "+ cache.length);
+          console.log("cache.length: "+ cache.length);
           if ( cache.length !== 0 ) {
           response( cache );
           return;
@@ -34,14 +34,7 @@
           cache = data;
           response( data );
          });
-        },
-        search: function() {
-          // custom minLength
-          var term = extractLast( this.value );
-          if ( term.length < 2 ) {
-            return false;
-          }
-        },
+        },        
         focus: function() {
           // prevent value inserted on focus
           return false;
