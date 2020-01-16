@@ -25,13 +25,15 @@
       .autocomplete({
         minLength: 0,
         source: function( request, response ) {
-          console.log("cache.length: "+ cache.length);
+          console.log("cache: "+ cache);
           if ( cache.length !== 0 ) {
           response( cache );
           return;
         }
          $.getJSON( "tags.json", response, function( data ) {
           cache = data;
+           console.log("data: "+ data);
+           console.log("cache: "+ cache);
           response( data );
          });
         },        
