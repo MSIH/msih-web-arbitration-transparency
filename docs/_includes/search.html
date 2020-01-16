@@ -32,7 +32,7 @@
          $.getJSON( "tags.json", response, function( data ) {
           cache = data;
           response( data );
-        },
+        }),
         search: function() {
           // custom minLength
           var term = extractLast( this.value );
