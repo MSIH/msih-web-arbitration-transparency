@@ -1,6 +1,7 @@
 ---
 layout: page
 title: United States Code: Title 9 - ARBITRATION
+tags: [laws, federal]
 ---
 **9 U.S.C. **
 
