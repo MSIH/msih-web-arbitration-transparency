@@ -250,7 +250,7 @@
         }
       } else if (contents && match === false) {
         if (key !== "category" && key !== "tags")
-          if (!isExcluded(obj[key], opt.exclude) && strategy.matches(obj[key], crit)) {
+          if (!isExcluded(obj[key], opt.exclude) && strategy.matches(obj[key], contents)) {
             var match = true;
           }
       }
