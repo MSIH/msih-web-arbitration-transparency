@@ -31,10 +31,8 @@
           return;
         }
          $.getJSON( "tags.json", response, function( data ) {
-          cache = data;
-           console.log("data: "+ data);
-           console.log("cache: "+ cache);
-          response( data );
+          response( $.ui.autocomplete.filter(
+            data, extractLast( request.term ) ) );
          });
         },        
         focus: function() {
