@@ -32,7 +32,7 @@
             console.log("cache[ term ]: " + cache[term]);
             return;
           }
-          $.getJSON("\tags.html", request, function (data) {
+          $.getJSON("/tags.html", request, function (data) {
             var choices = $.ui.autocomplete.filter(data, term)
             console.log("choices: " + choices);
             cache[term] = choices;
