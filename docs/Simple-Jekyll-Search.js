@@ -221,8 +221,8 @@
   function findMatchesInObject(obj, crit, strategy, opt) {
     var tags = crit.match(/\[.*?\]/g); //find strings within []
     var categories = crit.match(/\(.*?\)/g); //find strings within ()
-    var contents = tags.foreach(crit.replace(tag, ""))
-    contents = categories.foreach(contents.replace(category, ""))
+    var contents = tags ? tags.foreach(crit.replace(tag, "")) : null
+    contents = categories ? categories.foreach(contents.replace(category, "")) : null
     console.log("contents: " + contents)
 
     // if tags, match, no match return
