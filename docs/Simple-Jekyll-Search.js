@@ -243,11 +243,11 @@
       console.log("key: " + key)
       if (tags && key === "tags") {
         console.log("key === tags: " + tags)
-        if (!isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], tags.join())) { //if no tags match return
+        if (!isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], tags.join().replace("[", "").replace("]", ""))) { //if no tags match return
           return
         }
       } else if (categories && key === "category") {
-        if (categories && !isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], categories.join())) { //if no categories match return
+        if (categories && !isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], categories.join().replace("(", "").replace(")", ""))) { //if no categories match return
           return
         }
       } else if (contents && match === false) {
