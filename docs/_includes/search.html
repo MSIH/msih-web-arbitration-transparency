@@ -1,62 +1,62 @@
-
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-  <script>
-  $( function() {
+<script>
+  $(function () {
     var cache = [];
-    
-    function split( val ) {
-      return val.split( /,\s*/ );
+
+    function split(val) {
+      return val.split(/,\s*/);
     }
-    function extractLast( term ) {
-      return split( term ).pop();
+
+    function extractLast(term) {
+      return split(term).pop();
     }
- 
-    $( "#search-input" )
+
+    $("#search-input")
       // don't navigate away from the field on tab when selecting an item
-      .on( "keydown", function( event ) {
-        if ( event.keyCode === $.ui.keyCode.TAB &&
-            $( this ).autocomplete( "instance" ).menu.active ) {
+      .on("keydown", function (event) {
+        if (event.keyCode === $.ui.keyCode.TAB &&
+          $(this).autocomplete("instance").menu.active) {
           event.preventDefault();
         }
       })
       .autocomplete({
         minLength: 0,
-        source: function( request, response ) {
-          var term = extractLast( request.term );
+        source: function (request, response) {
+          var term = extractLast(request.term);
           console.log("term: " + term);
-          if ( term in cache ) {
-          response( cache[ term ] );
-           console.log("cache[ term ]: " + cache[ term ]); 
-          return;
-        }
-         $.getJSON( "tags.json", request, function( data ) {
-           var choices = $.ui.autocomplete.filter(data, term )
-           console.log("choices: " + choices); 
-           cache[ term ] = choices ;
-          response( choices  );
-         });
-        },        
-        focus: function() {
+          if (term in cache) {
+            response(cache[term]);
+            console.log("cache[ term ]: " + cache[term]);
+            return;
+          }
+          $.getJSON("tags.json", request, function (data) {
+            var choices = $.ui.autocomplete.filter(data, term)
+            console.log("choices: " + choices);
+            cache[term] = choices;
+            response(choices);
+          });
+        },
+        focus: function () {
           // prevent value inserted on focus
           return false;
         },
-        select: function( event, ui ) {
-          var terms = split( this.value );
+        select: function (event, ui) {
+          var terms = split(this.value);
           // remove the current input
           terms.pop();
           // add the selected item
-          terms.push( ui.item.value );
+          terms.push(ui.item.value);
           // add placeholder to get the comma-and-space at the end
-          terms.push( "" );
-          this.value = terms.join( ", " );
+          terms.push("");
+          this.value = terms.join(", ");
           return false;
         }
       });
-  } );
-  </script>
+  });
+</script>
 
 <div class="ui-widget">
   <label for="tags">Search: </label>
@@ -66,15 +66,15 @@
 
 <script src="{{ site.baseurl }}/Simple-Jekyll-Search.js"></script>
 
-    <script>
-      window.simpleJekyllSearch = new SimpleJekyllSearch({
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
-        searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-        noResultsText: 'No results found',
-        limit: 10,
-        fuzzy: false,
-        exclude: ['Welcome']
-      })
-    </script>
+<script>
+  window.simpleJekyllSearch = new SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.html',
+    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
+  })
+</script>
