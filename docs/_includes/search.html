@@ -32,7 +32,7 @@
             console.log("cache[ term ]: " + cache[term]);
             return;
           }
-          $.getJSON("\tags.md", request, function (data) {
+          $.getJSON("\tags.html", request, function (data) {
             var choices = $.ui.autocomplete.filter(data, term)
             console.log("choices: " + choices);
             cache[term] = choices;
@@ -70,7 +70,7 @@
   window.simpleJekyllSearch = new SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    json: '/search.md',
+    json: '/search.html',
     searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
     noResultsText: 'No results found',
     limit: 10,
