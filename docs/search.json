@@ -9,11 +9,14 @@ layout: null
       "url": "{{ site.baseurl }}{{ post.url }}",
       "date": "{{ post.date }}"
     } {
-      % unless forloop.last %
+      %
+      unless forloop.last %
     }, {
-      % endunless %
+      %
+      endunless %
     } {
-      % endfor %
+      %
+      endfor %
     }
 
     {
@@ -28,13 +31,17 @@ layout: null
       "tags": "{{ page.tags | join: ', ' }}",
       "url": "{{ site.baseurl }}{{ page.url }}",
       "date": "{{ page.date }}" {
-        % endif %
+        %
+        endif %
       }
     } {
-      % unless forloop.last %
+      %
+      unless forloop.last %
     }, {
-      % endunless %
+      %
+      endunless %
     } {
-      % endfor %
+      %
+      endfor %
     }
   ]
