@@ -26,12 +26,15 @@
         minLength: 0,
         source: function( request, response ) {
           var term = extractLast( request.term );
+          console.log("term: " + term);
           if ( term in cache ) {
           response( cache[ term ] );
+           console.log("cache[ term ]: " + cache[ term ]); 
           return;
         }
          $.getJSON( "tags.json", response, function( data ) {
            var choices = $.ui.autocomplete.filter(data, term )
+           console.log("choices: " + choices); 
            cache[ term ] = choices ;
           response( choices  );
          });
