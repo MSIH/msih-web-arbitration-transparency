@@ -117,7 +117,8 @@
     this.matches = function (str, crit) {
       if (!str) return false
 
-      //str = str.trim().toLowerCase()
+      str = str.trim().toLowerCase()
+      crit = crit.trim().toLowerCase()
 
       return crit.split(' ').filter(function (word) {
         return str.indexOf(word) >= 0
@@ -241,18 +242,20 @@
     for (var key in obj) {
       console.log("key: " + key)
       if (tags && key === "tags") {
-        if (!isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], tags)) { //if no tags match return
+        console.log("key === tags: " + tags)
+        if (!isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], tags.join())) { //if no tags match return
           return
         }
       } else if (categories && key === "category") {
-        if (categories && !isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], categories)) { //if no categories match return
+        if (categories && !isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], categories.join())) { //if no categories match return
           return
         }
       } else if (contents && match === false) {
         if (key !== "category" && key !== "tags")
-          if (!isExcluded(obj[key], opt.exclude) && strategy.matches(obj[key], contents)) {
-            var match = true;
-          }
+          console.log("key === contents: " + contents)
+        if (!isExcluded(obj[key], opt.exclude) && strategy.matches(obj[key], contents)) {
+          var match = true;
+        }
       }
     }
     console.log("contents: " + contents)
