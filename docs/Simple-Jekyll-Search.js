@@ -223,6 +223,8 @@
     var categories = crit.match(/\(.*?\)/g); //find strings within ()
     var contents = tags ? tags.foreach(element => crit.replace(element, "")) : null
     contents = categories ? categories.foreach(element => contents.replace(element, "")) : null
+    console.log("tags: " + tags)
+    console.log("categories: " + categories)
     console.log("contents: " + contents)
 
     // if tags, match, no match return
@@ -237,6 +239,7 @@
 
     var match = false;
     for (var key in obj) {
+      console.log("key: " + key)
       if (tags && key === "tags") {
         if (!isExcluded(obj[key], opt.exclude) && !strategy.matches(obj[key], tags)) { //if no tags match return
           return
@@ -252,6 +255,8 @@
           }
       }
     }
+    console.log("contents: " + contents)
+    console.log("match: " + match)
     if (!contents || (contents && match === true)) {
       //if not content search and tag and cat not failed, then show
       //if content seach and there was a match, then show
