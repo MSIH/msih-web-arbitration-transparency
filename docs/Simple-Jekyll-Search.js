@@ -248,12 +248,13 @@
         }
       }
     }
+    console.log("tags: " + tags)
     console.log("contents: " + contents)
     console.log("match: " + match)
     if ((tags && !contents) || (contents && match === true)) {
       //if not content search and tag and cat not failed, then show
       //if content seach and there was a match, then show
-      //return obj
+      return obj
     }
   }
 
