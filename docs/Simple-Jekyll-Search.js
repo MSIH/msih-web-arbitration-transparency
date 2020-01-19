@@ -225,7 +225,6 @@
     console.log("categories: " + categories)
     var contents = tags ? tags.forEach(element => crit.replace(element, "")) : null
     contents = categories ? categories.forEach(element => contents.replace(element, "")) : null
-
     console.log("contents: " + contents)
 
     // if tags, match, no match return
@@ -237,6 +236,7 @@
     // if just cat
     // if tag and content
     // if content
+
 
     var match = false;
     for (var key in obj) {
@@ -260,7 +260,7 @@
     }
     console.log("contents: " + contents)
     console.log("match: " + match)
-    if (!contents || (contents && match === true)) {
+    if ((tags && !contents) || (contents && match === true)) {
       //if not content search and tag and cat not failed, then show
       //if content seach and there was a match, then show
       return obj
