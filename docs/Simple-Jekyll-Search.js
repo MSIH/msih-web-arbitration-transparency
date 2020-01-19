@@ -224,7 +224,10 @@
     console.log("crit: " + crit)
     console.log("tags: " + tags)
     console.log("categories: " + categories)
-    var contents = tags ? tags.forEach(element => crit.replace(element, "")) : crit
+    var contents = crit
+    if (tags) {
+      tags.forEach(element => contents = contents.replace(element, ""))
+    }
     //contents = categories ? categories.forEach(element => contents.replace(element, "")) : null
     console.log("contents: " + contents)
 
