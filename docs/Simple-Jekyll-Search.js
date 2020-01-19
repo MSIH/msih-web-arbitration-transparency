@@ -227,6 +227,7 @@
     var contents = crit
     if (tags) {
       tags.forEach(element => contents = contents.replace(element, ""))
+      contents = contents.replace(",", "")
     }
     //contents = categories ? categories.forEach(element => contents.replace(element, "")) : null
     console.log("contents: " + contents)
